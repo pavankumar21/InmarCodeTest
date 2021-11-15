@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OOPfundamentals.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -7,33 +8,45 @@ using System.Web.Http;
 
 namespace OOPfundamentals.Controllers
 {
-    public class ValuesController : ApiController
+    public class ProductController : ApiController
     {
-        // GET api/values
-        public IEnumerable<string> Get()
+        private static OfferService _OfferService;
+        public ProductController(OfferService OfferService)
         {
-            return new string[] { "value1", "value2" };
+            _OfferService = OfferService;
+        }
+        
+
+        public IEnumerable<Offer> GetTodaysOffers()
+        {
+            return _OfferService.GetTodaysOffers(); ;
         }
 
-        // GET api/values/5
-        public string Get(int id)
+        public IEnumerable<Product> GetProduct()
         {
-            return "value";
+            var tempresult =  _OfferService.GetAllProducts();
+
+            tempresult = tempresult.OrderBy(x => x.Price).ToList().Take(3).ToList();
+
+            return tempresult;
         }
 
+        public Product GetSecondLowestPriceProduct()
+        {
+            var tempresult = _OfferService.GetAllProducts();
+
+            tempresult = tempresult.OrderBy(x => x.Price).ToList().Take(2).ToList();
+
+            return tempresult[1];
+        }
+      
         // POST api/values
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Product value)
         {
+            var result = _OfferService.GetAllProducts();
+            result.Add(value);
         }
 
-        // PUT api/values/5
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        public void Delete(int id)
-        {
-        }
+       
     }
 }

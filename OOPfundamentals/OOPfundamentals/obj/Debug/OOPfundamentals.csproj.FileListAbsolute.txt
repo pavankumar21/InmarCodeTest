@@ -82,3 +82,4 @@ D:\InmarTest\InmarCodeTest\OOPfundamentals\OOPfundamentals\obj\Debug\OOPfundamen
 D:\InmarTest\InmarCodeTest\OOPfundamentals\OOPfundamentals\obj\Debug\OOPfundamentals.csproj.CopyComplete
 D:\InmarTest\InmarCodeTest\OOPfundamentals\OOPfundamentals\obj\Debug\OOPfundamentals.dll
 D:\InmarTest\InmarCodeTest\OOPfundamentals\OOPfundamentals\obj\Debug\OOPfundamentals.pdb
+D:\InmarTest\InmarCodeTest\OOPfundamentals\OOPfundamentals\obj\Debug\OOPfundamentals.csproj.AssemblyReference.cache
