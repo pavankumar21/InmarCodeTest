@@ -1,0 +1,13 @@
+D:\InmarTest\InmarCodeTest\Logicalskills\Logicalskills\bin\Debug\netcoreapp3.1\Logicalskills.exe
+D:\InmarTest\InmarCodeTest\Logicalskills\Logicalskills\bin\Debug\netcoreapp3.1\Logicalskills.deps.json
+D:\InmarTest\InmarCodeTest\Logicalskills\Logicalskills\bin\Debug\netcoreapp3.1\Logicalskills.runtimeconfig.json
+D:\InmarTest\InmarCodeTest\Logicalskills\Logicalskills\bin\Debug\netcoreapp3.1\Logicalskills.runtimeconfig.dev.json
+D:\InmarTest\InmarCodeTest\Logicalskills\Logicalskills\bin\Debug\netcoreapp3.1\Logicalskills.dll
+D:\InmarTest\InmarCodeTest\Logicalskills\Logicalskills\bin\Debug\netcoreapp3.1\Logicalskills.pdb
+D:\InmarTest\InmarCodeTest\Logicalskills\Logicalskills\obj\Debug\netcoreapp3.1\Logicalskills.GeneratedMSBuildEditorConfig.editorconfig
+D:\InmarTest\InmarCodeTest\Logicalskills\Logicalskills\obj\Debug\netcoreapp3.1\Logicalskills.AssemblyInfoInputs.cache
+D:\InmarTest\InmarCodeTest\Logicalskills\Logicalskills\obj\Debug\netcoreapp3.1\Logicalskills.AssemblyInfo.cs
+D:\InmarTest\InmarCodeTest\Logicalskills\Logicalskills\obj\Debug\netcoreapp3.1\Logicalskills.csproj.CoreCompileInputs.cache
+D:\InmarTest\InmarCodeTest\Logicalskills\Logicalskills\obj\Debug\netcoreapp3.1\Logicalskills.dll
+D:\InmarTest\InmarCodeTest\Logicalskills\Logicalskills\obj\Debug\netcoreapp3.1\Logicalskills.pdb
+D:\InmarTest\InmarCodeTest\Logicalskills\Logicalskills\obj\Debug\netcoreapp3.1\Logicalskills.genruntimeconfig.cache
