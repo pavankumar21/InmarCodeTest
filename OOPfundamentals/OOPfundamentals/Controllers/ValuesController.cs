@@ -43,8 +43,7 @@ namespace OOPfundamentals.Controllers
         // POST api/values
         public void Post([FromBody] Product value)
         {
-            var result = _OfferService.GetAllProducts();
-            result.Add(value);
+             _OfferService.AddAProducts(value);           
         }
 
        

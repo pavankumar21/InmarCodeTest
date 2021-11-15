@@ -31,6 +31,11 @@ namespace OOPfundamentals.Models
             return this._inventory;
         }
 
+        public void AddAProducts(Product product)
+        {
+             this._inventory.Add(product);
+        }
+
         public List<Offer> GetTodaysOffers()
         {
             var result = new List<Offer>() {
